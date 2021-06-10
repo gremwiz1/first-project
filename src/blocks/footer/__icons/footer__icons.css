@@ -1,0 +1,12 @@
+.footer__icons {
+   padding-right: 16.01vw;
+    display: flex;
+    padding-top: 86px;
+    padding-bottom: 114px;
+}
+@media screen and (max-width: 1200px) {
+    .footer__icons {
+        padding: 15px;
+        margin: 0 auto;
+    }
+}

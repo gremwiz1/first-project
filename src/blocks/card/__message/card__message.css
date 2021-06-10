@@ -1,0 +1,22 @@
+.card__message {
+    padding-top: 111px;
+    text-align: center;
+    padding-left: 82px;
+    padding-right: 76px;
+    background-color: #e9eef3;
+    color: #767582;
+    font-size: 60px;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 60px;
+    margin: 0;
+    padding-bottom: 249px;
+}
+@media screen and (max-width: 660px) {
+    .card__message {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}

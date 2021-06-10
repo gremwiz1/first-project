@@ -1,0 +1,14 @@
+.form__icon {
+    width: 560px;
+    height: 560px;
+    object-fit: cover;
+    margin: 0 auto;
+    padding-bottom: 193px;
+}
+@media screen and (max-width: 660px) {
+    .form__icon {
+        width: 85vw;
+        height: auto;
+        object-fit: contain;
+    }
+}

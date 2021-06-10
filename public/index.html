@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Комментарии</title>
+    <link rel="stylesheet" href="../src/index.css">
+</head>
+
+<body class="page">
+<header class="header">
+    <img class="header__logo" src="../src/images/logo-header.png" alt="логотип">
+</header>
+<main>
+    <form class="form" novalidate>
+        <img class="form__icon" src="../src/images/_Contact_Icon_.png" alt="Контактная форма">
+        <div class="form__content">
+            <div class="form__section">
+                <label class="form__label">Имя<span class="form__span">*</span></label>
+                <input class="form__input-name form__input" type="text" id="name-input" minlength="2" maxlength="40" required>
+                <span class="form__input-error" id="name-input-error"></span>
+                <label class="form__label">E-Mail<span class="form__span">*</span></label>
+                <input class="form__input-email form__input" type="email" id="email-input" required>
+                <span class="form__input-error" id="email-input-error"></span>
+            </div>
+            <div class="form__section">
+                <label class="form__label">Комментарий<span class="form__span">*</span></label>
+                <textarea class="form__textarea form__input" id="textarea-input" type="text" minlength="2" maxlength="300" required></textarea>
+                <span class="form__input-error" id="textarea-input-error"></span>
+                <button type="submit" class="form__submit-button" name="submit">Записать</button>
+            </div>
+        </div>
+
+    </form>
+    <section class="content">
+        <h2 class="page__title">Выводим комментарии</h2>
+        <div class="cards">
+<!--            <div class="card">-->
+<!--                <h3 class="card__title">Вася</h3>-->
+<!--                <p class="card__email">vasya@mail.ru</p>-->
+<!--                <p class="card__message">Сообщение от Василия Пупкина</p>-->
+<!--            </div>-->
+<!--            <div class="card">-->
+<!--                <h3 class="card__title">Маруся</h3>-->
+<!--                <p class="card__email">marysia@mail.ru</p>-->
+<!--                <p class="card__message">Всем привет, я Маруся</p>-->
+<!--            </div>-->
+<!--            <div class="card">-->
+<!--                <h3 class="card__title">Вася</h3>-->
+<!--                <p class="card__email">vasya@mail.ru</p>-->
+<!--                <p class="card__message">Сообщение от Василия Пупкина</p>-->
+<!--            </div>-->
+<!--            <div class="card">-->
+<!--                <h3 class="card__title">Маруся</h3>-->
+<!--                <p class="card__email">marysia@mail.ru</p>-->
+<!--                <p class="card__message">Всем привет, я Маруся</p>-->
+<!--            </div>-->
+<!--            <div class="card">-->
+<!--                <h3 class="card__title">Вася</h3>-->
+<!--                <p class="card__email">vasya@mail.ru</p>-->
+<!--                <p class="card__message">Сообщение от Василия Пупкина</p>-->
+<!--            </div>-->
+
+        </div>
+    </section>
+
+</main>
+<footer class="footer">
+    <img class="footer__logo" src="../src/images/logo-footer.png">
+    <div class="footer__icons">
+        <div class="footer__icon"></div>
+        <div class="footer__icon"></div>
+    </div>
+</footer>
+<template class="template">
+    <div class="card">
+        <h3 class="card__title"></h3>
+        <p class="card__email"></p>
+        <p class="card__message"></p>
+    </div>
+</template>
+<script src="../src/index.js"></script>
+</body>

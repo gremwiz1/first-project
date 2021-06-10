@@ -1,0 +1,16 @@
+.form__span {
+    color: #be393b;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 86px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 65px;
+    padding-left: 36px;
+}
+@media screen and (max-width: 660px) {
+    .form__span {
+        font-size: 43px;
+        line-height: 32px;
+    }
+}

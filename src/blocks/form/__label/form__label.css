@@ -1,0 +1,20 @@
+.form__label {
+    padding-left: 2px;
+    text-align: left;
+    color: #d7d7d7;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 65px;
+}
+.form__label:nth-last-child(2) {
+    height: 54px;
+}
+@media screen and (max-width: 660px) {
+    .form__label {
+        font-size: 35px;
+        line-height: 32px;
+    }
+}

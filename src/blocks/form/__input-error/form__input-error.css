@@ -1,0 +1,20 @@
+.form__input-error {
+    width: 100%;
+    background-color: #2f3338;
+    box-sizing: border-box;
+    color: #d7d7d7;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 65px;
+    text-align: left;
+    font-size: 60px;
+    opacity: 0;
+}
+@media screen and (max-width: 660px){
+    .form__input-error {
+        font-size: 30px;
+        line-height: 32px;
+    }
+}

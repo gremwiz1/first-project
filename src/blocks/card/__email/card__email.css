@@ -1,0 +1,19 @@
+.card__email {
+    padding-top: 153px;
+    text-align: center;
+    margin: 0;
+    color: #6d737b;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 68px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 85px;
+    background-color: #e9eef3;
+}
+@media screen and (max-width: 660px) {
+    .card__email {
+        font-size: 34px;
+        line-height: 42px;
+    }
+}

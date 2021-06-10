@@ -1,0 +1,18 @@
+.page__title {
+    text-align: center;
+    color: #37414e;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 86px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 65px;
+    padding-top: 292px;
+    margin-bottom: 260px;
+}
+@media screen and (max-width: 660px) {
+    .page__title {
+        font-size: 43px;
+        line-height: 32px;
+    }
+}

@@ -1,0 +1,20 @@
+.footer__logo {
+    padding-top: 75px;
+    padding-bottom: 114px;
+    padding-left: 14.97vw;
+    object-fit: cover;
+    height: 100px;
+    max-width: 492px;
+}
+@media screen and (max-width: 1200px) {
+    .footer__logo {
+        padding: 10px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 660px){
+    .footer__logo {
+        max-width: 74.5vw;
+        object-fit: contain;
+    }
+}

@@ -1,0 +1,16 @@
+.footer__icon {
+    height: 89px;
+    width: 89px;
+    margin-right: 110px;
+    background-image: url("../../../images/Btn-__FB_copy.png");
+    background-size: cover;
+    transition: 1s;
+    cursor: pointer;
+}
+.footer__icon:last-child {
+    background-image: url("../../../images/Btn-__FB.png");
+    margin-right: 0;
+}
+.footer__icon:hover {
+    opacity: 0.6;
+}

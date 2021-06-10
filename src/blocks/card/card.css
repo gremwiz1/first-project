@@ -1,0 +1,23 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    min-height: 647px;
+    width: 659px;
+}
+.card:nth-child(2n) > .card__title {
+    background-color: #58ad52;
+}
+.card:nth-child(2n) > .card__email {
+    color: #58ad52;
+    background-color: #deebde;
+}
+.card:nth-child(2n) > .card__message {
+    background-color: #deebde;
+    color: #768275;
+}
+@media screen and (max-width: 660px) {
+    .card {
+        width:100%;
+        margin-bottom: 50px;
+    }
+}

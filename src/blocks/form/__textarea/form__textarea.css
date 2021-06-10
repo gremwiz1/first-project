@@ -1,0 +1,29 @@
+.form__textarea {
+    margin-top: 58px;
+    min-height: 682px;
+    width: 33.93vw;
+    border: 3px solid rgba(255, 255, 255, 0.52);
+    background-color: #34383c;
+    opacity: 0.28;
+    box-sizing: border-box;
+    color: #d7d7d7;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 65px;
+    text-align: left;
+    font-size: 60px;
+}
+@media screen and (max-width: 1200px) {
+    .form__textarea {
+        width: 70vw;
+    }
+}
+@media screen and (max-width: 660px){
+    .form__textarea {
+        min-height: 300px;
+        font-size: 30px;
+        line-height: 32px;
+    }
+}
